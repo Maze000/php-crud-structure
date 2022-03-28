@@ -10,7 +10,7 @@ $query = mysqli_query($con,$sql);
 
 if ($query) {
     $_SESSION['message']='EDITED';
-	header("Location:index.php");
+    header("Location:index.php");
 }
 
 ?>
