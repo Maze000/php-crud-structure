@@ -1,7 +1,7 @@
 <?php
 include("connection.php");
 ?>
-<!DOCTYPE html>
+
  <form action="search.php" method="POST">
      <input type="text" name="search">
      <input type="submit"  value="search"><a href="new.php">new</a>
@@ -37,7 +37,7 @@ while($mostrar=mysqli_fetch_array($query)){
  }
  session_unset(); ?>
  
-</html>
+
 
 
 
