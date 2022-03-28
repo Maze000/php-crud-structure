@@ -3,7 +3,7 @@ include("connection.php");
 $search=$_POST['search'];//defined before to use it in input value
 ?>
 
-<!DOCTYPE html>
+
  <form action="search.php" method="POST">
      <input type="text" name="search" value="<?=$search?>">
      <input type="submit" value="search"><a href="new.php">new</a>
@@ -46,4 +46,3 @@ session_unset(); ?><br>
 
 <a href="index.php">back</a>
 
-</html>
